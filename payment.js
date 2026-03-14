@@ -1,6 +1,6 @@
 // payment.js
 function processPayment(amount) {
-    if(amount = 100) {  // BUG: '=' instead of '=='
+    if(amount == 100) {
         console.log("Payment successful");
     } else {
         console.log("Payment failed");
